@@ -12,7 +12,7 @@ const users = [
   { id: 3, name: 'Bob Johnson' },
 ];
 
-app.get('/api/users/list', (req, res) => {
+app.get('/api/users', (req, res) => {
   res.json(users);
 });
 

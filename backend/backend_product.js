@@ -12,7 +12,7 @@ const products = [
   { id: 3, name: 'baju' },
 ];
 
-app.get('/api/products/list', (req, res) => {
+app.get('/api/products', (req, res) => {
   res.json(products);
 });
 
